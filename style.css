@@ -1,0 +1,264 @@
+
+body{
+    background-color:#B9CEEB;
+    text-align :center;
+}
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 65vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/bonjour.jpg");
+}
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #B9CEEB;
+}
+.banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #FDFFE8;
+  margin-bottom: 20px;
+  padding:25px 0px 0px 0px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #006989;
+  background-color:#DEECFC;
+  text-align:center;
+  padding:25px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #F8F4E3;
+  text-align:center;
+  padding:10px 0px 0px 0px;
+
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #006989;
+  text-align: center;
+  padding:25px 0px 25px 0px;
+  background-color:#DEECFC;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+img{
+	height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin: 10px 20px 20px 20px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #006989;
+  background-color:#DEECFC;
+  border-radius: 10px;
+  text-align:center;
+  padding:10px 100px 10px 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #006989;
+  padding:10px 0px 0px 0px;
+  text-align:justify;
+}
+
+h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  color: #FDFFE8;text-align: center;
+  padding:15px 0px 0px 0px;
+}
+
+.btn-primary{
+	background-color: #B9CEEB;
+  border-radius: 10px;
+  text-align: center;
+  padding:25px 0px 0px 0px;
+  height:75px;
+  width:200px;
+}
+
+.mybutton{
+	padding:20px;
+  background-color: #FDFFE8;
+  border-radius: 10px;
+}
+
+.card{
+  background: transparent;
+  border: 2px solid #006989;
+  text-align:center;
+  margin: 50px 20px 10px 20px;
+  padding : 10px 10px 10px 10px;
+}
+
+
+.mybutton {
+  background: transparent;
+  border: 2px solid #006989;
+}
+
+
+#logo{
+  width:125px;
+  height:125px;
+  position:relative;
+  top:-75px;
+  left: -600px;
+}
+
+.change{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer p {
+  text-align: center;
+  color: #B9CEEB;
+}
+
+
+#newsletter {
+  border-radius: 10px;
+}
+
+.my-typeform {
+  margin: 10px 50px 10px 50px;
+  height: 300px;
+}
+.fab{
+  padding-top: 5px;
+  margin: 10px 30px 10px 30px; 
+}
+
+ 
